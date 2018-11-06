@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "./common";
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+@import "@material/image-list/mdc-image-list";
+h1{
+  font-family: Srisakdi;
+  height: 86px;
+  width: 753px;
+  color: #212121;
+  font-size: 72px;
+  line-height: 85px;
+  margin-left: 253px;
+}
+
+h2{
+  font-family: Srisakdi;
+  height: 25px;
+  width: 125px;
+  color: #7A0000;
+  font-size: 20px;
+  line-height: 23px;
+}
+form{ box-sizing:border-box; }
+
+body {
+	height: 24px;
+  width: 297.27px;
+  color: rgba(0,0,0,0.87);
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+}
+ul li{
+  list-style: none;
+  flex-flow: row-wrap;
+}
+.my-image-list {
+  @include mdc-image-list-standard-columns(3);
+  max-width: 960px;
+  height: 245px;
+  width: 260px;
+}
+.my-image-list {
+
+}
+
+#form{
+  margin-left: 488.91px;
+  .header {
+    text-align: center;
+  }
+
+  .username,
+  .password {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin: auto;
+  }
+
+  .button-container button {
+    margin: 3px;
+  }
+
+  ///.shrine-logo {
+  //  width: 150px;
+  //  height: 150px;
+  //  padding-top: 80px;
+  //  fill: currentColor;
+//  }
+
+}
