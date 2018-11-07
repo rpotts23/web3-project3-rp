@@ -32,12 +32,16 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
-ul li{
+.mdc-image-list mdc-image-list__item{
   list-style: none;
   flex-flow: row-wrap;
 }
+img{
+  height: 245px;
+  width: 260px;
+}
 .my-image-list {
-  @include mdc-image-list-standard-columns(3);
+  @include mdc-image-list-standard-columns(2);
   max-width: 960px;
   height: 245px;
   width: 260px;
