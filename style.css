@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "./common";
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+@import "@material/image-list/mdc-image-list";
+@import "@material/icon-button/mdc-icon-button";
+h1{
+  font-family: Srisakdi;
+  height: 86px;
+  width: 753px;
+  color: #212121;
+  font-size: 72px;
+  line-height: 85px;
+  margin-left: 253px;
+}
+
+h2{
+  font-family: Srisakdi;
+  height: 25px;
+  width: 125px;
+  color: #7A0000;
+  font-size: 20px;
+  line-height: 23px;
+}
+form{
+   box-sizing:border-box;
+   margin-top: 200px;
+ }
+form img{
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+body {
+  color: rgba(0,0,0,0.87);
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  width: 1200px;
+}
+content ul{
+  display: flex;
+  list-style: none;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+li span {
+  color:#7A0000;
+}
+content {
+  width: 250px;
+}
+content li{
+  margin-right: 50px;
+
+}
+.mdc-image-list mdc-image-list__item{
+  list-style: none;
+  flex-flow: row-wrap;
+}
+img{
+  height: 245px;
+  width: 260px;
+}
+
+header img{
+  width: 100px;
+  height: 100px;
+  margin-right: 900px;
+}
+
+.my-image-list {
+
+  max-width: 960px;
+  height: 245px;
+  width: 260px;
+  flex-flow: row-wrap;
+}
+
+
+#form{
+  margin-left: 488.91px;
+  .header {
+    text-align: center;
+  }
+
+  .username,
+  .password {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin: auto;
+  }
+
+  .button-container button {
+    margin: 3px;
+  }
