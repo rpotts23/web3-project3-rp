@@ -51,6 +51,7 @@ li span {
 }
 content {
   width: 250px;
+  margin-bottom: 100px;
 }
 content li{
   margin-right: 50px;
